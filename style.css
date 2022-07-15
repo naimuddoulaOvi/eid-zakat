@@ -1,5 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lobster&family=Poppins&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+h1,h2,h3,h4, strong{
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    font-size: 55px;
+    color: #fff;
+    line-height: 75px;
+}
+h2{
+    font-size: 45px;
+    color: #121212;
+}
+p{
+    color: #707070;
+    font-size: 18px;
+}
+img{
+    width: 100%;
+}
+.button{
+    color: #fff;
+    background-color: #EF233C;
+    font-size: 20px;
+    border-radius: 5px;
+}
+footer h3{
+    font-family: 'Lobster', cursive;
+    color: #EF233C;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+/* Header Section */
+
+
+/* Explore Section */
+/* Direct Help Section */
+/* Dua Section */
+/* Zakat Fund Section */
+/* Footer Section */
