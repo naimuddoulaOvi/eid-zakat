@@ -69,6 +69,21 @@ header{
 .explore-area-1{
     padding: 10% 15% 0%;
 }
+.explore-area-1 .explore-media{
+    position: relative;
+}
+.explore-area-1 .explore-media>img{
+    cursor: pointer;
+    width:400px;
+    height:500px;
+    
+}
+.play img{
+    width: 100px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
 .explore-area-2{
     padding: 5% 15% 10%;
 }
