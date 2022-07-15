@@ -90,6 +90,37 @@ header{
     filter: grayscale(1);
 }
 /* Direct Help Section */
+.direct-help-heading{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+.direct-help-area{
+    display: flex;
+    justify-content: center;
+}
+.direct-help{
+    display: flex;
+    width: 30%;
+    margin: 1%;
+    padding: 2% 0%;
+    background-color: #FEF4F5;
+    border-radius: 5%;
+}
+.direct-help-img{
+    width: 70%;
+    padding-right: 10%;
+    padding-left: 5%;
+}
 /* Dua Section */
+.dua{
+    margin: 8%;
+    display: flex;
+}
+.dua img{
+    border-radius: 7%;
+    width: 33%;
+    padding: 1%;
+}
 /* Zakat Fund Section */
 /* Footer Section */
