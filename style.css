@@ -47,8 +47,7 @@ footer h3{
 
 /* Header Section */
 header{
-    background-image: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,0)), url(img/header.png);
-    background-position: center;
+    background: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,0)), url(img/header.png) no-repeat center;
     
 }
 .header-text{
