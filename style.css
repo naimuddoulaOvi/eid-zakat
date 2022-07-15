@@ -24,6 +24,7 @@ h2{
 p{
     color: #707070;
     font-size: 18px;
+    line-height: 28px;
 }
 img{
     width: 100%;
@@ -33,6 +34,9 @@ img{
     background-color: #EF233C;
     font-size: 20px;
     border-radius: 5px;
+    padding: 12px 16px;
+    margin-top: 3%;
+    display: inline-block;
 }
 footer h3{
     font-family: 'Lobster', cursive;
@@ -42,9 +46,49 @@ footer h3{
 }
 
 /* Header Section */
-
+header{
+    background-image: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,0)), url(img/header.png);
+    background-position: center;
+    
+}
+.header-text{
+    width: 50%;
+    padding: 10% 0 10% 15%;
+}
+.header-text p{
+    color: #fff;
+}
+.header-text a{
+    padding-top: 10px;
+}
 
 /* Explore Section */
+.explore-area-1, .explore-area-2{
+    display: flex;
+}
+.explore-area-1{
+    padding: 10% 15% 0%;
+}
+.explore-area-2{
+    padding: 5% 15% 10%;
+}
+.explore-area-1 .explore-text{
+    margin: auto 10% auto 0;
+}
+.explore-area-2 .explore-text{
+    margin: 5% 0% auto 10%;
+    width: 45%;
+}
+.explore-area-2 .explore-text h2{
+    width: 80%;
+}
+.explore-area-2 .explore-media{
+    width: 50%;
+}
+.explore-area-2 img{
+    height: 110%;
+    filter: grayscale(1);
+}
 /* Direct Help Section */
 /* Dua Section */
 /* Zakat Fund Section */
